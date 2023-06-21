@@ -1,0 +1,344 @@
+.home{
+   width: 100%;
+   top: 0;
+   z-index: 2;
+   position: fixed;
+  
+}
+/* .ho1{
+    margin-left: 120px;
+} */
+
+/* .button1{
+    text-decoration: none;
+    margin-left: 550px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: Orange;
+    width: 100px;
+    height: 30px;
+    margin-left: 50%;
+    position: absolute;
+    color: white;
+    font-size: 14px; 
+   
+} */
+.me-auto{
+    margin-top: 15px;
+
+}
+/* .hover{
+    position: relative;
+    display: inline-block;
+}
+.hover:hover{
+    background-color: aqua;
+    display: block;
+}
+.hov{
+   display: none; 
+   position: absolute;
+}
+.hov a{
+    display: block;
+} */
+
+.m{
+    font-weight: 500;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+Link{
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* .login{
+    margin-left: 250px;
+} */
+.abo{
+    text-decoration: none;
+    color: black;
+}
+.abo1{
+    
+
+    text-decoration: none;
+    text-align: center;
+    /* border-radius: 20px; */
+    text-align: center;
+    /* background-color: Orange;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; */
+    position: absolute;
+    color: gold;
+    font-size: 15px; 
+    margin-left: 250px;
+}
+.abo3{
+    
+
+    text-decoration: none;
+    text-align: center;
+    /* border-radius: 20px; */
+    text-align: center;
+    /* background-color: Orange;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px; */
+    color: gold;
+    position: absolute;
+    
+    font-size: 15px; 
+    margin-left: 290px;
+}
+.rr{
+    color: gold;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.abo2{
+    text-decoration: none;
+
+    border-radius: 20px;
+    text-align: center;
+    background-color: Orange;
+    width: 120px;
+
+margin-left: 550px;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 15px; 
+}
+.cart{
+    margin-left: 710px;
+    position: absolute;
+    color: gold;
+    font-size: 30px;
+margin-top: 0px;
+line-height: 3px;
+    
+}
+
+
+
+/*   
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  } */
+  
+  /* .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   */
+  /* .dropdown {
+    float: left;
+    overflow: hidden;
+  } */
+  
+  .dropdown{
+    position: relative;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: gold;
+    /* margin-right:40px; */
+    
+  }
+/*   
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  } */
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 400px;
+    height:  400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+    text-align: center;
+
+  }
+/*   
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  } */
+  
+  /* .dropdown-content a:hover {
+    background-color: #ddd;
+  } */
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+
+
+     /* .............Media Query.......... */
+
+     @media(max-width:500px){
+        .abo1{
+        text-decoration: none;
+
+        position: absolute;
+         color: black;
+        font-size: 16px;
+        margin: 0%;
+        }
+
+        .cart{margin-left: 0px;}
+
+        .abo3{
+    
+            text-decoration: none;
+
+            position: absolute;
+             color: black;
+            font-size: 16px;
+            margin: 0%;
+            margin-top: 20px;
+           
+        }
+        .abo2{
+            text-decoration: none;
+            position: absolute;
+            color: black;
+            font-size: 14px;
+            margin: 0%;
+            margin-top: 40px;
+        }
+     }
+     @media(max-width:1024px) {
+      .abo1{
+        text-decoration: none;
+
+        position: absolute;
+         color: black;
+        font-size: 16px;
+        margin-left: 150px;
+        }
+        .abo3{
+    
+            text-decoration: none;
+
+            position: absolute;
+             color: black;
+            font-size: 16px;
+            margin-left: 180px;
+    
+        }
+        .cart{
+            margin-left: 450px;
+            position: absolute;
+            color: gold;
+            font-size: 25px;
+            
+        }
+        .abo2{
+            text-decoration: none;
+            position: absolute;
+            color: black;
+            font-size: 14px;
+            margin-left: 300px;
+          
+        }
+     }
+     @media(max-width:375px) {
+      .abo1{
+        text-decoration: none;
+
+        position: absolute;
+         color: black;
+        font-size: 16px;
+        margin-left: 0px;
+        }
+        .abo3{
+    
+            text-decoration: none;
+
+            position: absolute;
+             color: black;
+            font-size: 16px;
+            margin-left: 0px;
+            
+           
+        }
+        .abo2{
+            text-decoration: none;
+            position: absolute;
+            color: black;
+            font-size: 14px;
+            margin-left: 0px;
+        }
+        .cart{
+            margin-left: 0px;
+            
+        }
+     }
+     @media(max-width:768px) {
+      .abo1{
+        text-decoration: none;
+
+        position: absolute;
+         color: black;
+        font-size: 16px;
+        margin-left: 0px;
+        }
+        .cart{
+            margin-left: 0px;
+            position: absolute;
+            color: gold;
+            font-size: 25px;
+            margin-top: 60px;
+            
+        }
+        .abo3{
+    
+            text-decoration: none;
+
+            position: absolute;
+             color: black;
+            font-size: 16px;
+            margin-left: 0px;
+            margin-top: 20px;
+           
+        }
+        .abo2{
+            text-decoration: none;
+            position: absolute;
+            color: black;
+            font-size: 14px;
+            margin-left: 0px;
+           margin-top: 40px;
+          
+        }
+     }

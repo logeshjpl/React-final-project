@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section6{
+    width: 100%;
+    height: 350px;
+    background-color: #E12E3F;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.sec6{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: firebrick;
+  text-align: center;
+margin-top: 50px;
+margin-left: 90px;
+}
+.sec6:hover{
+    background-color: lavender;
+}
+.se6{
+    color: lavender;
+    
+    text-align: center;
+    font-size: 40px;
+}
+.se6:hover{
+    color: firebrick;
+}
+.s6{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+ /* .............Media Query.......... */
+
+ @media(max-width:500px){
+
+    .sec6{
+        width: 80px;
+        height: 80px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 50px;
+        background: firebrick;
+      text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    }
+ }

@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.sign{
+    height: 200px;
+
+}
+.h{
+    text-align: center;
+}
+.label{
+    font-size: 20px;
+    align-items: center;
+    
+}
+.input{
+     height: 40px;
+     width: 30%;
+     align-items: center;
+}
+/* .row{
+    text-align:center ;
+    background-color: lightgrey;
+    height: auto;
+} */
+.submit{
+    height: 40px;
+    width: 10%;
+    align-items: center;    
+}
+.submit :hover{
+    background-color: brown;
+}

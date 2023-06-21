@@ -1,0 +1,48 @@
+.section10{
+    background-color:lavender;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.s10{
+    background-color:#E12E3F;
+    color: white;
+    position: relative;
+
+}
+.ss10{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.sss10{
+    margin-left: 20px;
+}
+.ssss10{
+    padding-top: 30px;
+    color: #E12E3F;
+    font-weight: 600;
+}
+.pad10{
+    margin-top: 10px;
+}
+.p10{
+    font-size: 15px;
+    color: gray;
+}
+.pp10{
+    margin-left: 80px;
+}
+
+.ic10{
+    position: absolute;
+    color: white ;
+    margin-left: 480px;
+    margin-top: 20px;
+    }
+    .icc10{
+        position: absolute;
+    
+        margin-left: 480px;
+        margin-top: 20px;
+        }

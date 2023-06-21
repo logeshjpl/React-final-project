@@ -1,0 +1,87 @@
+.Login{
+    width: 50%;
+    height: 400px;
+    /* background-image: url(./istockphoto-1182619271-1024x1024.jpg); */
+    background-color: lavender;
+    
+    margin-left: 300px;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+ }
+ .emp{
+     /* color: white; */
+     margin-top: 20px;
+     margin-left: 300px;
+     font-family: poppins,sans-serif;
+     font-size: large;
+ }
+ .signin{
+     text-align: center;
+     text-transform: uppercase; 
+     font-size: xx-large;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     /* color: white; */
+     padding-top: 35px;
+ }
+ .con{
+     margin-left: 180px;
+     width: 50%;
+     height: 30px;
+ }
+ .con1{
+     margin-left: 180px;
+     width: 50%;
+     height: 30px;
+    
+ }
+ .btnlogin{
+     margin-top: 20px;
+     text-align: center;
+     
+ }
+ .asd{
+     /* color: white; */
+     font-size: large;
+ }
+ .bld{
+     background-color: rgb(40, 142, 219);
+     padding: 10px 25px;
+     color: white;
+     font-size: larger;
+ }
+ .error{
+    color: crimson;
+ }
+ 
+ /* .............Media Query.......... */
+ @media(max-width:500px){
+ 
+     .Login{
+         width: 100%;
+         height: 410px; 
+         margin-left: 3px;
+         margin-right: 3px;
+     }
+     .emp{
+         color: white;
+         margin-top: 20px;
+         margin-left: 50px;
+ 
+     }
+     .con{
+         margin-left: 50px;
+         width: 50%;
+         height: 30px;
+         margin-top: 10px;
+     }
+     .con1{
+         margin-left: 48px;
+         width: 50%;
+         height: 30px;
+         margin-top: 10px;
+     }
+ }
+ 

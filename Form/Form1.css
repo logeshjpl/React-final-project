@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.h{
+    text-align: center;
+}
+.label1{
+    font-size: 20px;
+    align-items: center;
+    
+}
+.input1{
+     height: 30px;
+     width: 30%;
+     align-items: center;
+     border-radius: 10px;
+     border-color: white;
+}
+.row1{
+    text-align:center ;
+    background-color: lavender;
+    height: auto;
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 20px;
+    margin-top: 70px;
+    
+}
+.submit1{
+    height: 30px;
+    width: 10%;
+    align-items: center;   
+    width: 100px; 
+    border-radius: 10px;
+    border-color: white;
+    z-index: -1;
+    
+}
+.submit1:hover{
+    color: firebrick;
+}

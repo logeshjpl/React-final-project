@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    background-color: Lavender;
+    margin-top: 70px;
+   padding-bottom: 80px;
+}
+.par2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.par{
+text-align: center;
+color: #E12E3F;
+font-weight: 600;
+}
+.par1{
+    text-align: center;
+    }
+.fa{
+    
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 70px;
+    background: firebrick;
+
+}
+.fa1{
+    font-size: 40px;
+    text-align: center;
+    color: #E12E3F;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fa1:hover{
+    color: white;
+}
+.fa5{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    
+}
+.fa2{
+
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    border-radius: 70px;
+    background: lavender;
+
+    
+}
+.fa2:hover{
+    background-color: firebrick;
+}
+.card3{
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E12E3F;
+    text-align: center;
+    height: 220px;
+}
+.card4{
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 220px;
+}
+.card4:hover{
+    background-color: #E12E3F;
+}
+.img5{
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 220px;
+    
+    position: relative;
+}
+.img37{
+    width: 180px;
+    height: 150px;
+    color: lavender;
+    margin-left: 1100px;
+     margin-top: 120px;
+    opacity: 0.5;
+
+    position: absolute;
+}
+.card5{
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 260px;
+}
+.d{
+    padding-top: 3px;
+}
+.border1{
+    border-radius: 20px;
+    font-size: 15px;
+    color: #E12E3F;
+    background-color: lavender;
+    border-color: lavender;
+    font-weight: 600;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+ /* .............Media Query.......... */
+
+ /* @media(max-width:500px){
+    .fa{
+
+        width: 70px;
+        height: 70px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 50px;
+        background: firebrick;
+        margin-left: 170px;
+      
+        padding-bottom: 70px;
+    }
+
+    .fa2{
+
+        width: 70px;
+        height: 70px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 50px;
+        background: lavender;
+        margin-left: 170px;
+        padding-bottom: 70px;
+    }
+
+ } */
+ @media(max-width:425px) {
+    .img37{
+        display: none;
+    }
+ }
+ @media(max-width:768px) {
+    .img37{
+        display: none;
+    }
+ }

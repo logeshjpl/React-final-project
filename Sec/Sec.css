@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pp{
+    position: relative;
+
+}
+.ff{
+    float: left;
+}
+.ho{
+    margin-left: 30px;
+}
+.back{
+    background-color: pink;
+}
+.b{
+    background-color: white;
+}
+.c{
+    color: #E12E3F;
+    padding-top: 80px;
+    font-weight: 600;
+    
+}
+
+.rght{
+ width: 50%;
+ height: 310px;
+ background-color:#E12E3F;
+ position: absolute;
+float: left;
+margin-top: 0%;
+
+}
+.asolute{
+position: absolute;
+width: 160px;
+height: 120px;
+background-color: FireBrick;
+right: 0;
+border-bottom-left-radius:10px ;
+}
+
+button1.hover{
+    color: blue;
+}
+.health{
+    font-size: 40px;
+    font-style: bold;
+}
+/* .p1{
+    font-size: 12px;
+} */
+.bor{
+    border-radius: 20px;
+    font-size: 15px;
+    background-color:#E12E3F;
+    font-weight: 500;
+}
+.asolute1{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    background-color: Gold;
+    margin-top: 180px;
+    border-radius: 15px;
+margin-left: 60px;
+    }
+    .img1{
+    width: 80%;
+     position: absolute;
+     margin-left: 120px;
+     height: 300px;
+     width: 25%;
+    margin-top: 130px;
+    
+    }
+  .icon{
+        position: absolute;
+        margin-top: 340px;
+        margin-left: 30px;
+
+        border-radius: 130px;
+        background-color: rgb(66, 66, 220);
+        color: white;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        font-size: 30px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+    }
+    .icon1{
+        position: absolute;
+        margin-top: 220px;
+        margin-left: 480px;
+
+        border-radius: 130px;
+        background-color: DeepSkyBlue;
+        color: white;
+        font-size: 30px;
+
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+        
+         
+
+    .button2{
+        text-decoration: none;
+        margin-left:425px;
+            border-radius: 20px;
+
+            background-color: Orange;
+            width: 100px;
+            height: 40px;
+            position: absolute;
+            color: white;
+             font-size: 14px;
+             margin-top: 20px;
+             
+    }   
+    button1:hover{
+        background-color: blue;
+    }   
+    /* .ic1{
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        background-color: mintcream;
+        margin-top: 220px;
+        margin-left: 480px;
+        border-radius: 20px;
+    
+    }  
+    .ic2{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: mintcream;
+        margin-top: 340px;
+        margin-left: 30px;
+        border-radius: 20px;
+        
+    }   */
+
+        /* .............Media Query.......... */
+ @media(max-width:500px){
+    .absolute1{
+        position: absolute;
+        width: 250px;
+        height: 160px;
+        background-color: rgb(255, 0, 136);
+        border-radius: 10px;
+        margin-right: 50px;
+        
+        }
+        .img1{
+            width: 80%;
+             position: absolute;
+             margin-left: 25px;
+             height: 210px;
+             
+            padding-bottom: 50px;
+            
+            }
+
+            .icon{
+                position: absolute;
+                margin-top: 300px;
+                margin-left: 30px;
+                
+                border-radius: 130px;
+                background-color: rgb(66, 66, 220);
+                width: 70px;
+                height: 70px;
+                text-align: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+            
+                
+            }
+            .icon1{
+                position: absolute;
+                margin-top: 220px;
+                margin-left: 280px;
+        
+                border-radius: 130px;
+                background-color: DeepSkyBlue;
+                color: #E12E3F;
+                width: 70px;
+        height: 70px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+                
+                 
+            }
+ }
+
+
+ .hom{
+    width: 100%;
+    /* position: fixed; */
+height: auto;
+margin-bottom: 150px;
+}
+.hh{
+    position: relative;
+}
+.button1{
+    text-decoration: none;
+    margin-left: 550px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: Orange;
+    width: 100px;
+    height: 30px;
+    margin-left: 50%;
+    position: absolute;
+    color: white;
+    font-size: 14px; 
+   
+}
+.me-auto{
+    margin-top: 15px;
+
+}
+/* .hover{
+    position: relative;
+    display: inline-block;
+}
+.hover:hover{
+    background-color: aqua;
+    display: block;
+}
+.hov{
+   display: none; 
+   position: absolute;
+}
+.hov a{
+    display: block;
+} */
+
+.m{
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+Link{
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* .login{
+    margin-left: 250px;
+} */
+.abo{
+    text-decoration: none;
+    color: black;
+}
+.abo1{
+    text-decoration: none;
+text-align: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: Orange;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    margin-left: 400px;
+margin-top: 25px;
+color: white;
+    font-size: 15px; 
+}
+.abo2{
+    text-decoration: none;
+
+
+    border-radius: 20px;
+    text-align: center;
+    background-color: Orange;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 300px;
+    position: absolute;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+color: white;
+    font-size: 15px; 
+}
+     /* .............Media Query.......... */
+     @media(max-width:500px){
+        .abo2{
+            text-decoration: none;
+        
+        
+            border-radius: 20px;
+            text-align: center;
+            background-color: Orange;
+            width: 100px;
+            margin-top: 25px;
+            margin-left: 80px;
+            position: absolute;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+        color: white;
+            font-size: 14px; 
+        }
+
+        .abo1{
+            text-decoration: none;
+        text-align: center;
+            border-radius: 20px;
+            text-align: center;
+            background-color: Orange;
+            width: 100px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: absolute;
+            margin-left: 180px;
+        margin-top: 25px;
+        color: white;
+            font-size: 14px; 
+        }
+     }
+
+   

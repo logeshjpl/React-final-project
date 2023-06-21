@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section5{
+margin-top: 50px;
+margin-bottom: 80px;
+height: auto;
+width: 100%;
+}
+
+.five{
+    text-align: center;
+    color: #E12E3F;
+
+    font-weight: 600;
+}
+.five1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.img10{
+    
+    width: 150px;
+    height: 150px; 
+     border-radius: 100px;
+     /* -webkit-border-radius: 50px;
+    -moz-border-radius: 80px; */
+    text-align: center;
+    border: 8px solid #E12E3F;
+  
+}
+.title{
+    text-align: center;
+    padding-top: 20px;
+}
+.card8{
+    background-color: lavender;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    height: 350px;
+    width: 300px;
+}
+.square{
+    text-align: center;
+    color: firebrick;
+    
+   
+   
+}
+.align{
+    text-align: center;
+
+}
+.borr{
+    border-radius: 20px;
+    font-size: 15px;
+    background-color:#E12E3F;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: 42.5%;
+    margin-top: 40px;
+}
+.borr:hover{
+    background-color: lavender;
+    color: firebrick;
+}
